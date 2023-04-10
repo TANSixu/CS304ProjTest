@@ -1,5 +1,6 @@
 package com.example.projecttest.controller;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -11,6 +12,6 @@ public class TestController {
 //    @ResponseBody
     public String testHello(){
         System.out.println("request!");
-        return "index1.html";
+        return "index.html1";
     }
 }
