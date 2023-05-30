@@ -12,6 +12,6 @@ public class TestController {
 //    @ResponseBody
     public String testHello(){
         System.out.println("request!");
-        return "index.html1";
+        return "testdir.index";
     }
 }
